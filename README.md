@@ -1,2 +1,2 @@
 # wp-esqueleto
-Estrutura básica para desenvolver temas em wordpress
+Estrutura básica com arquivos obrigatórios que utilizo como ponto de partida para o desenvolvimento de temas  wordpress.

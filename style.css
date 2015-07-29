@@ -1,0 +1,17 @@
+/*
+Theme Name: Tema Base
+Theme URI: http://www.vanessamaia.com/
+Description: Tema Base desenvolvido por Vanessa Maia para projetos
+Author: Vanessa Maia
+Author URI: http://www.vanessamaia.com/
+*/
+
+
+/* global */
+
+* {-moz-box-sizing: border-box; box-sizing: border-box}
+
+.clearfix {*zoom:1}
+.clearfix:before,
+.clearfix:after {content:""; display:table; line-height:0}
+.clearfix:after {clear:both}
