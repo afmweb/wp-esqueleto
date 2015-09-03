@@ -1,0 +1,8 @@
+/* global */
+
+* {-moz-box-sizing: border-box; box-sizing: border-box}
+
+.clearfix {*zoom:1}
+.clearfix:before,
+.clearfix:after {content:""; display:table; line-height:0}
+.clearfix:after {clear:both}

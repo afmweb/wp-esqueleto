@@ -1,17 +1,10 @@
 /*
-Theme Name: Tema Base
-Theme URI: http://www.vanessamaia.com/
-Description: Tema Base desenvolvido por Vanessa Maia para projetos
+Theme Name: Esqueleto
+Theme URI: http://www.andremarcelino.com.br/
+Description: Tema Base desenvolvido por André Marcelino
 Author: Vanessa Maia
-Author URI: http://www.vanessamaia.com/
+Author URI: http://www.andremarcelino.com.br/
 */
 
-
-/* global */
-
-* {-moz-box-sizing: border-box; box-sizing: border-box}
-
-.clearfix {*zoom:1}
-.clearfix:before,
-.clearfix:after {content:""; display:table; line-height:0}
-.clearfix:after {clear:both}
+/*Adiciona BOOTSTRAP*/
+@import url('midias/bootstrap/css/bootstrap.min.css');
