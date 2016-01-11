@@ -1,0 +1,12 @@
+/*
+Theme Name: EU AndréFauzeMarcelino
+Theme URI: https://github.com/afmweb/wp-esqueleto/tree/master
+Description: Meu site reservado para anotações, estudos, guardar dados pessoais, etc.
+Author: André Marcelino
+Author URI: http://andremarcelino.com.br/
+Tags: WordPress, PHP, wordpress, tema
+Version: 2.0
+*/
+
+/*Adiciona BOOTSTRAP*/
+@import url('assets/css/bootstrap.min.css');

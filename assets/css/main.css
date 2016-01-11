@@ -1,0 +1,259 @@
+header div.topo{
+    display: block;
+    width: 100%;
+    float: left;
+    margin: 0;
+}
+
+/*MENU-PRINCIPAL*/
+.menu-principal{
+    background: #f2f2f2;
+    width: 100%;
+    display: block;
+    float: left;
+}
+.primary_nav_wrap
+{
+    margin-top:15px;
+    display: block;
+    float: left;
+
+}
+
+.primary_nav_wrap ul
+{
+    list-style:none;
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0
+}
+
+.primary_nav_wrap ul a
+{
+    display:block;
+    color:#333;
+    text-decoration:none;
+    font-weight:700;
+    font-size:12px;
+    line-height:32px;
+    padding:0 15px;
+    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+.primary_nav_wrap ul li
+{
+    position:relative;
+    float:left;
+    margin:0;
+    padding:0
+}
+
+.primary_nav_wrap ul li.current-menu-item
+{
+    background:#ddd
+}
+
+.primary_nav_wrap ul li:hover
+{
+    background: #f6f6f6
+}
+
+.primary_nav_wrap ul ul
+{
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#fff;
+    padding:0
+}
+
+.primary_nav_wrap ul ul li
+{
+    float:none;
+    width:200px
+}
+
+.primary_nav_wrap ul ul a
+{
+    line-height:120%;
+    padding:10px 15px
+}
+
+.primary_nav_wrap ul ul ul
+{
+    top:0;
+    left:100%
+}
+
+.primary_nav_wrap ul li:hover > ul
+{
+    display:block;
+        background: #f2f2f2;
+        z-index: 100;
+}
+.eventos-home{
+    background: #f4f4f4;    
+}
+.eventos-home .paginacao-eventos-home{
+    text-align: center;
+    padding: 10px;
+}
+
+.eventos-home img{
+    width: 100%;    
+}
+
+footer .bx-footer {
+  width: 100%;
+  float: left;
+  background: #3a3a3a;
+  padding: 30px 0 30px 0;
+}
+footer .bx-footer h3 {
+  width: 163px;
+  height: 58px;
+  float: left;
+  background: url("../img/lgo/lgo_prefeitura_branco.png") no-repeat;
+  margin: 0 30px 0 0;
+  text-indent: -9999px;
+}
+footer .bx-footer h3 a {
+  display: block;
+}
+footer .bx-footer address {
+  float: left;
+  border-right: 1px solid #5c5c5c;
+  border-left: 1px solid #5c5c5c;
+  font: 1.2em Arial;
+  color: #cccccc;
+  padding: 0 25px 0 25px;
+}
+footer .bx-footer .bx-contato {
+  float: left;
+  border-right: 1px solid #5c5c5c;
+  margin: 0 0 0 0;
+  padding: 6px 25px 6px 25px;
+}
+footer .bx-footer .bx-contato li {
+  clear: both;
+  color: #ffffff;
+  list-style: none;
+  font: 1.2em Arial;
+  padding: 0 0 8px 0;
+}
+footer .bx-footer .bx-contato li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+footer .bx-footer .bx-contato li i {
+  font-size: 1.2em;
+  color: #676767;
+  margin: 0 6px 0 0;
+}
+footer .bx-footer .bx-redes {
+  float: right;
+  margin: 10px 0 0 0;
+  padding: 0 0 0 0;
+}
+footer .bx-footer .bx-redes li {
+  display: inline;
+  float: left;
+}
+footer .bx-footer .bx-redes li a {
+  font-size: 1.8em;
+  color: #5e5e5e;
+  text-decoration: none;
+}
+footer .bx-direitos {
+  width: 100%;
+  float: left;
+  background: #303030;
+  padding: 10px 0 15px 0;
+}
+footer .bx-direitos p {
+  float: left;
+  margin: 0 0 0 0;
+  padding: 8px 0 0 0;
+  color: #ffffff;
+  font: 1.0em Arial;
+}
+footer .bx-direitos p a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+footer .bx-direitos span {
+  width: 182px;
+  height: 27px;
+  float: right;
+  background: url("../img/lgo/lgo_prodam.jpg") no-repeat;
+  text-indent: -9999px;
+}
+footer .bx-direitos span a {
+  display: block;
+}
+
+/*div conteudo padrão*/
+.content-default{
+  min-height: 500px;
+  margin-bottom: 30px;
+  margin-top: 80px;
+}
+ ul.breadCrumb li{display: inline;}
+ 
+ /**GALERIA**/
+ 
+ .galeria-pratas-da-casa{
+          background: #F2F2F2;
+          
+     display: block;
+     float: left;
+
+ }
+ .galeria-pratas-da-casa img{
+     width: auto;
+     position: relative;
+padding: 10px;
+ }
+ .galeria-pratas-da-casa  .modalidade{
+     margin-top: -50px;
+     margin-left: 40px;
+     background: #ccc;
+     z-index: 80;
+     position: absolute;
+ }
+ .galeria-pratas-da-casa h2{
+     font-size: 13px;
+ }
+ h2{margin-top: 0}
+ .bg-cinza{
+     background: #f2f2f2;
+     display: block;
+     padding: 5px;
+     margin-top: 20px
+ }
+ .bg-cinza .pull-right{
+     margin-top: -10px
+ }
+ .pg-noticias .data-mes{
+     font-size: 20px;
+     background: #ccc;
+ }
+ 
+ .pg-noticias .data-hora{
+     font-size: 16px;
+ }
+ .img-left img{float:left; margin-left:0; margin-right:10px; margin-bottom:15px; display: block; clear: both}
+ 
+ div .paginate_posts{
+     display: block;
+     background: #EEEEEE;
+     padding: 6px;
+     margin-bottom: 0;
+     text-align: center;     
+     
+ }
+ div .paginate_posts ul li{
+     display: inline;
+ }
